@@ -1,7 +1,6 @@
-# CSC1110 - Week # AssignmentName
+Dr. Velez's lecture code for CSC1110A Fall AY27.
 
-#TODO 
-- Change week number and assignment name.
-- Edit the URL to point to the instructions for the assignment.
+If you use portions of the code provided in this repository for an assignment, 
+you must add a comment that says you used code from this repository.
 
-[link to assignment](https://csse.msoe.us/csc1110/)
+

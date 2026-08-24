@@ -26,6 +26,7 @@ hs_err_pid*
 .idea/
 out/
 src/taylor
+exams/
 
 # Mac Garbage
 .DS_Store
