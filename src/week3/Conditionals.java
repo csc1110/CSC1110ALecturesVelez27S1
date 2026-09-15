@@ -15,6 +15,7 @@ public class Conditionals{
 
 		//if(radius > lower && radius < upper && radius % 2 == 0 && radius != 6){
 		//if(radius == 5 || radius > 8){
+		//double circumference = 0;
 		if (!(radius > lower && radius < upper)) {
 			//if(radius <= 4 || radius >= upper){
 			double circumference = 3.14 * 2 * radius;
@@ -26,6 +27,7 @@ public class Conditionals{
 		} else {
 			System.out.println("Invalid radius " + radius);
 		}
+		//System.out.println("Circumference was "+circumference);
 		System.out.println("Goodbye");
 	}
 }
