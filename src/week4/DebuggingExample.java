@@ -19,7 +19,7 @@ public class DebuggingExample {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the current year");
         int year = in.nextInt();
-        System.out.println("Enter your birthday in the form dd/mm/yyyy");
+        System.out.println("Enter your birthday in the form mm/dd/yyyy");
         String input = in.next();
         int birthYear = getYear(input);
         int approxAge = year - birthYear;

@@ -27,6 +27,8 @@ hs_err_pid*
 out/
 src/taylor
 exams/
+quizzes/
+exercises/
 
 # Mac Garbage
 .DS_Store
