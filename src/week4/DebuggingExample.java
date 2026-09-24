@@ -11,8 +11,8 @@ import java.util.Scanner;
 
 public class DebuggingExample {
     private static int getYear(String input){
-        final int index = input.indexOf("/");
-        String year = input.substring(index);
+        final int index = input.lastIndexOf("/");
+        String year = input.substring(index + 1);
         return Integer.parseInt(year);
     }
     static void main(String[] args) {
