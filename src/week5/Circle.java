@@ -10,19 +10,11 @@ package week5;
 public class Circle {
     private double diameter;
     private String color;
-    public boolean biggerThan(Circle other){
-        return this.area() > other.area();
-    }
-
     public void setDiameter(double diameter) {
         this.diameter = diameter;
     }
     public double getDiameter() {
-        // the this is redundant because
-        // there is only one diameter in scope
-        // you can just write
-        // return diameter
-        return this.diameter;
+        return diameter;
     }
     public void testMethod(double diameter){
         //System.out.println("Value of passed-in diameter: " + diameter);
@@ -34,13 +26,14 @@ public class Circle {
     public String getColor() {
         return color;
     }
-    public void setColor(String c) {
-        color = c;
+    public void setColor(String color) {
+        this.color = color;
     }
 
 
     public void printValues(){
-        System.out.println("Circle diameter and color are "+diameter + " and "+color + ".");
+        System.out.println("Circle diameter and color are "+
+                diameter + " and "+color + ".");
     }
 
     public void printValues(String name){
@@ -48,19 +41,29 @@ public class Circle {
     }
 
     public double area(){
+
         return Math.PI * Math.pow(getRadius(), 2);
     }
     public double circumference(){
+
         return 2 * getRadius() * Math.PI;
     }
     private double getRadius(){
         return diameter/2;
     }
 
-//    public void setValues(double d, String c){
-//        diameter = d;
-//        color = c;
-//    }
-
+    /**
+     * Compares the called on Circle to the passed in
+     * Circle based on their area().
+     * @param other Another circle that is passed-in.
+     * @return Return true if this circle has a bigger
+     * area than the passed in circle.
+     */
+    public boolean biggerThan(Circle other){
+        System.out.println("Circle called on "+this);
+        System.out.println("Passed in circle is "+other);
+        //boolean bt = this.area() > other.area();
+        return this.area() > other.area();
+    }
 
 }

@@ -15,13 +15,13 @@ public class CircleDriverThis {
         System.out.println("Diameter of c1 is "+c1.getDiameter());
         c2.setDiameter(67);
         System.out.println("Diameter of c2 is "+c2.getDiameter());
-//        System.out.println("Printing c1 then calling testMethod() on c1 ");
-//        System.out.println(c1);
-//        c1.testMethod(67);
-//
-//        System.out.println("Printing c2 then calling testMethod() on c2 ");
-//        System.out.println(c2);
-//        c2.testMethod(100);
+        System.out.println("Printing c1 then calling testMethod() on c1 ");
+        System.out.println(c1);
+        c1.testMethod(67);
+
+        System.out.println("Printing c2 then calling testMethod() on c2 ");
+        System.out.println(c2);
+        c2.testMethod(100);
 
     }
 }
