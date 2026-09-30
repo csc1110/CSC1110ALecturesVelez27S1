@@ -32,4 +32,16 @@ public class Rectangle {
     public int perimeter(){
         return height * 2 + width * 2;
     }
+
+    public boolean isSquare(){
+        boolean ans = width == height;
+        if(width == height){
+            return true;
+        } else {
+            return false;
+        }
+        //return ans;
+    }
+
+
 }
