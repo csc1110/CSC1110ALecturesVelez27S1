@@ -7,6 +7,10 @@
  */
 package week5;
 
+/**
+ * This class represents a simple Rectanlge with
+ * a height and width.
+ */
 public class Rectangle {
     private int height;
     private int width;

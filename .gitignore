@@ -29,6 +29,7 @@ src/taylor
 exams/
 quizzes/
 exercises/
+labs/
 
 # Mac Garbage
 .DS_Store
