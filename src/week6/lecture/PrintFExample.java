@@ -9,7 +9,7 @@ package week6.lecture;
 
 public class PrintFExample {
     static void main() {
-        String word = "foo";
+        String word = "taco";
 
         System.out.print("|");
         System.out.printf("%-5s", word);
@@ -22,7 +22,8 @@ public class PrintFExample {
         System.out.println();
 
         System.out.print("|");
-        System.out.printf("%-15s", word);
+        int x = 15;
+        System.out.printf("%-"+x+"s", word);
         System.out.print("|");
         System.out.println();
 
