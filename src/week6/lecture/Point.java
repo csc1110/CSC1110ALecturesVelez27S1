@@ -39,7 +39,7 @@ public class Point {
         } else if(x < 0 && y < 0){
             return 3;
         }
-        boolean test = "foo" == new StringBuilder();
+        //boolean test = "foo" == new StringBuilder();
         return 0;
     }
 }
