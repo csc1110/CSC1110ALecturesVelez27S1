@@ -26,13 +26,13 @@ public class SquareDriver {
             Square s1 = squares[i];
             sum += s1.area();
         }
-        double avg = sum / squares.length;
-        int numLess = 0;
-        for(int i = 0; i < squares.length; i++){
-            if(squares[i].area() > avg){
-                numLess++;
-            }
-        }
+//        double avg = sum / squares.length;
+//        int numLess = 0;
+//        for(int i = 0; i < squares.length; i++){
+//            if(squares[i].area() >k avg){
+//                numLess++;
+//            }
+//        }
 //        Find the average area and then print out how many
 //        squares have an above average area
 //        Find the square with the max area and its index

@@ -14,13 +14,16 @@ public class ArrayErrors {
         String pass = "1234";
 
         System.out.println(guesses[0]);
+        System.out.println("foobar");
         guesses[0] = "foo";
         guesses[2] = "bar";
 
-        for(int i = 0; i < guesses.length; i++){
-            if(guesses[i].equals(pass)){
-                System.out.println("Access Granted!!!");
-            }
-        }
+//        for(int i = 0; i < guesses.length; i++){
+//            if(guesses[i].equals(pass)){
+//                System.out.println("Access Granted!!!");
+//            }
+//        }
+        System.out.println(guesses[-1]);
+        System.out.println(guesses[guesses.length]);
     }
 }
