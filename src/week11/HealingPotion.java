@@ -5,9 +5,9 @@
  * Name: Your Name
  * Created: 11/9/2026
  */
-package week10;
+package week11;
 
-public class HealingPotion {
+public class HealingPotion implements Sellable {
     private int maxRestore;
 
     public HealingPotion(int maxRestore) {

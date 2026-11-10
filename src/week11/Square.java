@@ -5,7 +5,9 @@
  * Name: Your Name
  * Created: 11/2/2026
  */
-package week10;
+package week11;
+
+import week10.Point;
 
 import java.util.ArrayList;
 
