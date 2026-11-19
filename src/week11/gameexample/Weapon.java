@@ -5,7 +5,7 @@
  * Name: Your Name
  * Created: 11/9/2026
  */
-package week11;
+package week11.gameexample;
 
 public class Weapon implements Sellable {
     private int dmg;

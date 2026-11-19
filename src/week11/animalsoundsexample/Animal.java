@@ -5,15 +5,12 @@
  * Name: Your Name
  * Created: 11/10/2026
  */
-package week11;
+package week11.animalsoundsexample;
 
-public class Cat implements Animal{
+public interface Animal {
     /**
      * Method called to print the sound of
      * this animal.
      */
-    @Override
-    public void makeNoise() {
-        System.out.println("meow");
-    }
+    void makeNoise();
 }

@@ -5,7 +5,7 @@
  * Name: Your Name
  * Created: 11/10/2026
  */
-package week11;
+package week11.gameexample;
 
 import java.util.ArrayList;
 
